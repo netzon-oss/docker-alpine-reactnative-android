@@ -33,4 +33,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/docker-alpine-reactnative-android:latest
-            ${{ secrets.DOCKER_HUB_USERNAME }}/docker-alpine-reactnative-android:android-30-jdk11-v2022.01.01-node-v14.18.1-yarn-1.22.10-b${{ github.run_id }}
+            ${{ secrets.DOCKER_HUB_USERNAME }}/docker-alpine-reactnative-android:android-30-jdk11-v2022.01.01-yarn-1.22.10-b${{ github.run_id }}
